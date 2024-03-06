@@ -1,7 +1,4 @@
-/* eslint-disable no-undef */
-/*************  © FocusResearch Labs 2020 *********************
-Function : PM2 Eco System Config, Includes running on different ports
-***************************************************************/
+
 module.exports = {
   apps: [
     {
@@ -23,3 +20,8 @@ module.exports = {
     }
   ]
 };
+
+//kill
+
+// tasklist /FI "IMAGENAME eq node.exe"
+// taskkill /F /PID <PID>
